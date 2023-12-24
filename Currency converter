@@ -1,0 +1,22 @@
+algoritmo "Conversão de Real para Dólar"
+var
+    valorReal, taxaCambio, valorDolar: real
+    format: real
+
+inicio
+    // Solicita o valor em reais ao usuário
+    escreva("Digite o valor em reais: ")
+    leia(valorReal)
+
+    // Define a taxa de câmbio (exemplo: 5.50 reais para 1 dólar)
+    taxaCambio <- 5.50
+
+    // Calcula o valor em dólares
+    valorDolar <- valorReal / taxaCambio
+    
+    Format <- valorDolar * 1
+
+
+    // Exibe o resultado
+    escreva("O valor em dólares é: ", Format)
+fimalgoritmo
