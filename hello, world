@@ -1,0 +1,12 @@
+Algoritmo "hello, world"
+// Autor   : João Pedro Pantoja Souza
+// Aqui está o primeiro contato de todo programador com uma linguagem (ou pseudo) de programação
+// Data atual  : 22/12/2023
+Var
+
+
+
+Inicio
+Escreva ("Olá, mundo!")
+
+Fimalgoritmo
