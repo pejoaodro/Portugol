@@ -1,0 +1,39 @@
+algoritmo "Soma, subtração e multiplicação de inteiros"
+
+var
+    num1, num2, resultado: inteiro
+    resposta: caractere
+
+inicio
+
+    escreva("Digite o primeiro número: ")
+    leia(num1)
+
+    escreva("Digite o segundo número: ")
+    leia(num2)
+
+    // Soma
+    resultado <- num1 + num2
+    escreval("A Soma de", num1, " +", num2, " =", resultado)
+
+    escreval(" ")
+    
+    escreva("Gostaria da subtração e multiplicação desses valores? (Sim/Não): ")
+    leia(resposta)
+
+    Se (resposta = "Sim") Entao
+    
+    escreval (" ")
+    
+        // Subtração
+        resultado <- num1 - num2
+        escreval("Subtração de", num1, " -", num2, " =", resultado)
+
+        // Multiplicação
+        resultado <- num1 * num2
+        escreval("Multiplicação de", num1, " *", num2, " =", resultado)
+    Senao
+        escreval("Tudo bem, continue utilizando nossas ferramentas!")
+    FimSe
+
+fimalgoritmo
