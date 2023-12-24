@@ -1,0 +1,29 @@
+algoritmo "Conversão de Distância"
+
+var
+    distanciaMetros, distanciaKm, distanciaMm, distanciaCm, distanciaDm: real
+
+inicio
+    // Solicita a distância em metros ao usuário
+    escreva("Digite a distância em metros: ")
+    leia(distanciaMetros)
+
+    // Conversão para quilômetros (1 km = 1000 m)
+    distanciaKm <- distanciaMetros / 1000
+
+    // Conversão para milímetros (1 m = 1000 mm)
+    distanciaMm <- distanciaMetros * 1000
+
+    // Conversão para centímetros (1 m = 100 cm)
+    distanciaCm <- distanciaMetros * 100
+
+    // Conversão para decímetros (1 m = 10 dm)
+    distanciaDm <- distanciaMetros * 10
+
+    // Exibindo os resultados
+    escreval("Distância em Quilômetros: ", distanciaKm, " km")
+    escreval("Distância em Milímetros: ", distanciaMm, " mm")
+    escreval("Distância em Centímetros: ", distanciaCm, " cm")
+    escreval("Distância em Decímetros: ", distanciaDm, " dm")
+
+fimalgoritmo
